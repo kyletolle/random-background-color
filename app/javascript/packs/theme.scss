@@ -23,11 +23,25 @@
 body {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
-h1.color {
+header {
   font-size: 10em;
   color: #eeeeee;
   // See https://caniuse.com/text-stroke
   -webkit-text-stroke: 1px #111111;
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 2em;
+  color: #eeeeee;
+  padding-bottom: 2px;
+
+  a {
+    color: #eeeeee;
+  }
 }
