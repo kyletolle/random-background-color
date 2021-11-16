@@ -1,5 +1,6 @@
 Jets.application.routes.draw do
-  root "jets/public#show"
+  get 'random_background_color/index'
+  root "random_background_color#index"
 
   # The jets/public#show controller can serve static utf8 content out of the public folder.
   # Note, as part of the deploy process Jets uploads files in the public folder to s3

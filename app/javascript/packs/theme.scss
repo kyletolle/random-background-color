@@ -19,3 +19,15 @@
     padding: 5px;
   }
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1.color {
+  font-size: 10em;
+  color: #eeeeee;
+  // See https://caniuse.com/text-stroke
+  -webkit-text-stroke: 1px #111111;
+}
